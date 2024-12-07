@@ -14,7 +14,7 @@ Contoh disini kalian lihat menggunakan `ls`:
 
 Banyak sekali directory dan kalian tidak tahu dimana file mysecret.txt. Disini kalian gunakan `find` untuk memudahkan kalian mencarinya.
 
-![Find mysecret.txt](/.gitbook/assets/find-ls.jpg)
+![Find mysecret.txt](/.gitbook/assets/find.jpg)
 
 > **Penjelasan** : 
 > - `find` tools find.
