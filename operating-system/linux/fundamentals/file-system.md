@@ -1,4 +1,4 @@
-# Linux Fundamentals: Interacting with the File System
+# Linux Fundamentals: Interaksi dengan file system.
 
 Linux adalah sistem operasi berbasis Unix yang menggunakan file system untuk mengatur dan menyimpan data. Dalam Linux, interaksi dengan file system sangat penting untuk mengelola file dan direktori. Berikut adalah beberapa konsep dasar dan perintah yang digunakan untuk berinteraksi dengan file system di Linux.
 
@@ -128,3 +128,35 @@ Berikut adalah beberapa daftar command untuk berinteraksi dengan file sistem:
   ```bash
   chown user:user file.txt
   ```
+
+## Flag and Switches
+
+Flag atau switch merupakan opsi tambahan dari sebuah tools atau command untuk menyesuaikan cara kerja perintah tersebut.
+
+
+### Flags pada `ls`
+
+Berikut adalah beberapa flags yang sering digunakan dengan perintah `ls` beserta deskripsinya:
+
+| Command           | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| `ls -a`           | Menampilkan semua file, termasuk file tersembunyi (dimulai dengan `.`).    |
+| `ls -l`           | Menampilkan daftar file dalam format panjang, termasuk izin, ukuran, dll.  |
+| `ls -h`           | Menampilkan ukuran file dalam format yang mudah dibaca (contoh: KB, MB).   |
+| `ls -la`          | Menampilkan file tersembunyi dalam format panjang.                        |
+| `ls -lh`          | Menampilkan file dalam format panjang dengan ukuran yang mudah dibaca.    |
+| `ls --help`       | Menampilkan panduan tentang penggunaan perintah `ls`.                     |
+
+
+## Man (Manual Page)
+
+Sering kali beberapa opsi tidak ditampilkan atau penjelasan dari opsi tersebut kurang jelas untuk kita pahami, maka linux juga menyediakan sebuah manual page yang berisi hal-hal tentang command yang diinginkan.
+
+Kalian bisa menjalankan seperti Berikut
+```bash
+man [command]
+```
+
+command diatas bisa kalian ganti dengan command yang kalian ingin lihat, seperti:`ls`, `cd` dan lain-lain.lain-lain
+
+![man page](/.gitbook/assets/man.jpg)
